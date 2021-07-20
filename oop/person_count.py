@@ -7,24 +7,27 @@
 
 class Person(object):
 
-    def __init__(self, name, age, address):
+    def __init__(self,name,age,address):
         self.name = name
         self.age = age
         self.address = address
 
-    def addperson(self, count):
-        self.counts.append(count)
-
-    def introduce(self, param):
-        print(f'안녕하세요. 제 이름은 {param.name}이고, 나이는 {param.age}세, {param.address}에서 거주합니다.')
-
-    @staticmethod
-    def main():
-        count = int(input("How many ? "))
-        for i in range(count):
-            person = Person(input('name'), input('age'), input('address'))
-        for i in len(count):
-            person.introduce(person)
+    def introduce(self):
+        print(f'my name is {self.name}, age is {self.age}, address is {self.address}.')
 
 
-Person.main()
+def main():
+    persons = []
+    while 1:
+        print('0. Exit 1. Add 2. Print')
+        menu = input('Choose number: ')
+        if menu == '0':
+            return
+        elif menu == '1':
+            persons.append(Person(input('name'), input('age'), input('address')))
+        elif menu == '2':
+            for i in persons:
+                i.introduce()
+
+if __name__ == '__main__':
+    main()
