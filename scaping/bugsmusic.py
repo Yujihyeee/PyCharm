@@ -1,5 +1,6 @@
 from bs4 import BeautifulSoup
 from urllib.request import urlopen
+import urllib.parse
 
 '''
 지원하는 Parser 종류
@@ -18,17 +19,36 @@ class Bugsmusic(object):
 
     def scrap(self):
         soup = BeautifulSoup(urlopen(self.url), 'lxml')
-        n_artists = 0
-      # n_title = 0
+        n_ = 0
+        artists = soup.find_all(name='p', attrs={'class': 'artist'})
+        titles = soup.find_all(name='p', attrs={'class': 'title'})
+        for i, j in zip(artists, titles):
+            n_ += 1
+            print(f"{str(n_)}위\n Artist : {i.find('a').text}\n Title : {j.find('a').text}")
 
-        for i in soup.find_all(name='p', attrs={'class': 'artist'}):
-            n_artists += 1
-          # print(str(n_artists) + "위\n" + "Artist : " + i.find('a').text + "Title :" + j.find('a').text)
+
+class MelonMusic(object):
+
+    def __init__(self, url):
+        self.url = url
+        self.headers = {'User-Agent': 'Mozilla/5.0'}
+
+
+    def scrap(self):
+        req = urllib.request.Request(self.url, headers= self.headers)
+        soup = BeautifulSoup(urllib.request.urlopen(req).read(), 'lxml')
+        _ = 0
+        artists = soup.find_all(name='div', attrs={'class': 'ellipsis rank02'})
+        titles = soup.find_all(name='div', attrs={'class': 'ellipsis rank01'})
+        for i, j in zip(artists, titles):
+            _ += 1
+            print(f"{str(_)}위\n Artist : {i.find('a').text}\n Title : {j.find('a').text}")
 
 
 def main():
     Bugsmusic(f'https://music.bugs.co.kr/chart/track/realtime/total?'
-                  f'chartdate={"20210720"}&charthour={"17"}').scrap()
+                  f'chartdate={"20210721"}&charthour={"12"}').scrap()
+    MelonMusic('https://www.melon.com/chart/index.htm?dayTime=2021072112').scrap()
 
 
 if __name__ == '__main__':
