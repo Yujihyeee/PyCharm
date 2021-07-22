@@ -15,7 +15,7 @@ class Contacts(object):
         print(f'name is {self.name}, phone is {self.phone}, email is {self.email}, address is {self.address}.')
 
 
-def set_contact():
+def set_contact() -> object:
     return Contacts(input('name'), int(input('phone')), input('email'), input('address'))
 
 
@@ -30,7 +30,7 @@ def del_contact(ls, name):
             del ls[i]
 
 
-def print_menu(ls):
+def print_menu(ls) -> int:
     # return '\t'.join(ls)
     t = ''
     for i, v in enumerate(ls):
