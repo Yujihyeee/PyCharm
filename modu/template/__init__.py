@@ -1,11 +1,10 @@
 from common.menu import print_menu
-from modu.template.basic_plot import plot_show, plot_two_list_show, plot_three_list_show, plot_color, plot_linestyle, \
-    plot_marker
+from modu.template.basic_plot import plot_show, plot_two_list_show, plot_three_list_show, plot_color, plot_linestyle, plot_scatter, ChangedTemperaturesOnMyBirthday
 
 if __name__ == '__main__':
     while 1:
         menu = print_menu(['exit', 'Plot Show', 'plot_two_list_show', ' plot_three_list_show', 'plot_color',
-                           'plot_linestyle', 'plot_scatter'])
+                           'plot_linestyle', 'plot_scatter', 'ChangedTemperaturesOnMyBirthday'])
         if menu == 0:
             break
         elif menu == 1:
@@ -19,4 +18,6 @@ if __name__ == '__main__':
         elif menu == 5:
             plot_linestyle()
         elif menu == 6:
-            plot_marker()
+            plot_scatter()
+        elif menu == 7:
+            ChangedTemperaturesOnMyBirthday()
