@@ -49,8 +49,8 @@ class ChangedTemperaturesOnMyBirthday():
         plt.show()
 
     def highest_temperature_my_birthday(self):
-        high = [] # 최고기온
-        low = [] # 최저기온
+        high = []  # 최고기온
+        low = []  # 최저기온
 
         for i in self.data:
             if i[-1] != '' and i[-2] != '':
@@ -59,12 +59,13 @@ class ChangedTemperaturesOnMyBirthday():
                         high.append(float(i[-1]))
                         low.append(float(i[-2]))
 
-        plt.plot(high, 'hotpink')
-        plt.plot(low, 'skyblue')
+        plt.rc('font', family='Malgun Gothic')
+        plt.rcParams['axes.unicode_minus'] = False
+        plt.title('내 생일의 기온 변화 그래프')
+        plt.plot(high, 'hotpink', label='high')
+        plt.plot(low, 'skyblue', label='low')
+        plt.legend()
         plt.show()
-
-    def extract_date_data(self):
-        pass
 
 
 if __name__ == '__main__':
