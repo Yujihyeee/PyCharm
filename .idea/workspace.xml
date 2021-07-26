@@ -2,16 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47f914f1-7905-4dcd-ae28-4cfbf83bfb36" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/basic/palindrome.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/reverse.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/menu.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/titanic/template/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/titanic/template/basic_plot.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/titanic/template/plot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modu/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modu/template/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modu/template/data/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modu/template/data/unit_10_gender.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modu/template/data/unit_11_subwayfee.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modu/template/data/unit_12_subwaytime.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modu/template/data/unit_14_age.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modu/template/data/unit_15_age.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modu/template/data/unit_5_seoul.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modu/template/data/unit_6_seoul.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modu/template/data/unit_7_age.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modu/template/data/unit_8_age.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modu/template/data/unit_8_gender.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modu/template/data/unit_9_gender.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modu/template/deflected_plot.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaping/music_ranking.py" beforeDir="false" afterPath="$PROJECT_DIR$/scaping/music_ranking.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/titanic/models/service.py" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/models/service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/titanic/template/basic_plot.py" beforeDir="false" afterPath="$PROJECT_DIR$/modu/template/basic_plot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/titanic/template/plot.py" beforeDir="false" afterPath="$PROJECT_DIR$/modu/template/plot.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,9 +60,10 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/titanic2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -62,6 +72,9 @@
       <recent name="C:\Users\bitcamp\yujihye\workspace\workspace_python\titanic2\data" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\bitcamp\yujihye\workspace\workspace_python\modu\template\data" />
+      <recent name="C:\Users\bitcamp\yujihye\workspace\workspace_python\modu\template" />
+      <recent name="C:\Users\bitcamp\yujihye\workspace\workspace_python\modu" />
       <recent name="C:\Users\bitcamp\yujihye\workspace\workspace_python\titanic\data" />
     </key>
   </component>
@@ -222,6 +235,8 @@
       <workItem from="1626827005707" duration="27660000" />
       <workItem from="1626913589446" duration="21222000" />
       <workItem from="1627000873885" duration="16959000" />
+      <workItem from="1627264368832" duration="417000" />
+      <workItem from="1627264803035" duration="2970000" />
     </task>
     <servers />
   </component>
