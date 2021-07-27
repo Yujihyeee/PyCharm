@@ -5,9 +5,7 @@ import matplotlib.pyplot as plt
 next()는 두가지 포맷으로 사용된다. 
 function 구조로 사용되면 header 만 리턴한다.
 consumer 구조로 사용하면 data 에서 header 를 제거한다.
-
 row[날짜,지점,평균기온(℃),최저기온(℃),최고기온(℃)] 최고기온은 -1 이다.
-
 data: [] = list()는 list 타입의 data 를 list() 로 초기화시키는 것이다.
 단, 한 메소드 내에서만 사용하면 로컬에서 초기화하고,
 data : [] = None
@@ -29,7 +27,7 @@ class ChangedTemperaturesOnMyBirthday():
         self.extract_date_data()
 
     def read_data(self):
-        data = csv.reader(open('./data/unit_5_seoul.csv', 'rt', encoding='UTF-8'))
+        data = csv.reader(open('data/seoul.csv', 'rt', encoding='UTF-8'))
         next(data)
         # print([i for i in data])
         self.data = data

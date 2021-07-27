@@ -7,5 +7,3 @@ class Plot(object):
 
     dataset = Dataset()
     service = Service()
-
-    

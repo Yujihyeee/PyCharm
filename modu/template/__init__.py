@@ -1,5 +1,6 @@
 from common.menu import print_menu
-from modu.template.basic_plot import plot_show, plot_two_list_show, plot_three_list_show, plot_color, plot_linestyle, plot_scatter, ChangedTemperaturesOnMyBirthday
+from modu.template.basic_plot import plot_show, plot_two_list_show, plot_three_list_show, plot_color, plot_linestyle, plot_scatter
+from modu.template.changed_temperatures_on_my_birthday import ChangedTemperaturesOnMyBirthday
 
 if __name__ == '__main__':
     while 1:
@@ -20,4 +21,4 @@ if __name__ == '__main__':
         elif menu == 6:
             plot_scatter()
         elif menu == 7:
-            ChangedTemperaturesOnMyBirthday()
+            ChangedTemperaturesOnMyBirthday().processing()

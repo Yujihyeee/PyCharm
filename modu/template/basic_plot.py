@@ -48,8 +48,3 @@ def plot_scatter():
     plt.plot([40, 30, 20, 10], "g^", label = "triangle up")
     plt.legend()
     plt.show()
-
-
-
-
-
