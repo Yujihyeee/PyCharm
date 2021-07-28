@@ -1,10 +1,12 @@
 import csv
 import matplotlib.pyplot as plt
+import numpy as np
 
 
 class Population(object):
 
     data = [] = list()
+
 
     def read_data(self):
         data = csv.reader(open('./data/202106_202106_연령별인구현황_월간.csv', 'rt', encoding='UTF-8'))

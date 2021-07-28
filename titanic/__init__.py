@@ -11,6 +11,7 @@ if __name__ == '__main__':
             plot = Plot()
             # plot.show_plots_survived_dead()
             # plot.show_plot_pclass()
-            plot.show_plot_Embarked()
+            # plot.show_plot_Embarked()
+            plot.show_plot_sex()
         elif menu == '2':
             pass
