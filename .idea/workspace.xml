@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47f914f1-7905-4dcd-ae28-4cfbf83bfb36" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/basic/numpy_lib.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modu/template/data/202106_202106_연령별인구현황_월간_without_comma.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modu/template/pop_structure_visual_with_pandas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modu/template/data/202106_202106_연령별인구현황_월간.csv" beforeDir="false" afterPath="$PROJECT_DIR$/modu/template/data/202106_202106_연령별인구현황_월간.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modu/template/pop_structure_visual.py" beforeDir="false" afterPath="$PROJECT_DIR$/modu/template/pop_structure_visual.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/titanic/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/titanic/template/plot.py" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/template/plot.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -251,6 +245,8 @@
       <workItem from="1627264803035" duration="24580000" />
       <workItem from="1627346129766" duration="26644000" />
       <workItem from="1627432142976" duration="23932000" />
+      <workItem from="1627520746256" duration="55000" />
+      <workItem from="1627520872414" duration="2857000" />
     </task>
     <servers />
   </component>
